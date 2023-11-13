@@ -1,0 +1,39 @@
+﻿Build started 11/13/2023 5:48:02 AM.
+     1>Project "C:\Users\Dennis Gaming\Desktop\eAmod Nov 11, 2023 working\eAmod 2011-12-28\vcproj-12\char-server_sql.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\src\common /I..\3rdparty\msinttypes\include /Zi /nologo /W3 /WX- /MP /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"char-server_sql\Release\\" /Fd"char-server_sql\Release\vc120.pdb" /Gd /TC /wd4800 /wd4996 /FIconfig.vc.h /analyze- /errorReport:prompt ..\src\char_sql\char.c ..\src\char_sql\int_achievement.c ..\src\char_sql\int_auction.c ..\src\char_sql\int_guild.c ..\src\char_sql\int_homun.c ..\src\char_sql\int_mail.c ..\src\char_sql\int_mercenary.c ..\src\char_sql\int_party.c ..\src\char_sql\int_pet.c ..\src\char_sql\int_quest.c ..\src\char_sql\int_storage.c ..\src\char_sql\inter.c
+         char.c
+         int_achievement.c
+         int_auction.c
+         int_guild.c
+         int_homun.c
+         int_mail.c
+         int_mercenary.c
+         int_party.c
+         int_pet.c
+         int_quest.c
+         int_storage.c
+         inter.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\char-server_sql.exe" /INCREMENTAL:NO /NOLOGO libcmt.lib oldnames.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\char-server_sql.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"..\char-server_sql.lib" /MACHINE:X86 /SAFESEH "char-server_sql\Release\char.obj"
+         "char-server_sql\Release\int_achievement.obj"
+         "char-server_sql\Release\int_auction.obj"
+         "char-server_sql\Release\int_guild.obj"
+         "char-server_sql\Release\int_homun.obj"
+         "char-server_sql\Release\int_mail.obj"
+         "char-server_sql\Release\int_mercenary.obj"
+         "char-server_sql\Release\int_party.obj"
+         "char-server_sql\Release\int_pet.obj"
+         "char-server_sql\Release\int_quest.obj"
+         "char-server_sql\Release\int_storage.obj"
+         "char-server_sql\Release\inter.obj"
+         "C:\Users\Dennis Gaming\Desktop\eAmod Nov 11, 2023 working\eAmod 2011-12-28\vcproj-12\common\Release\common.lib"
+         "C:\Users\Dennis Gaming\Desktop\eAmod Nov 11, 2023 working\eAmod 2011-12-28\vcproj-12\common_sql\Release\common_sql.lib"
+         Generating code
+         Finished generating code
+         char-server_sql.vcxproj -> C:\Users\Dennis Gaming\Desktop\eAmod Nov 11, 2023 working\eAmod 2011-12-28\vcproj-12\..\char-server_sql.exe
+     1>Done Building Project "C:\Users\Dennis Gaming\Desktop\eAmod Nov 11, 2023 working\eAmod 2011-12-28\vcproj-12\char-server_sql.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.51
